@@ -1,9 +1,12 @@
 aiofiles
 aiohttp==3.6.3
 bs4
+covid
 cowpy
 dnspython
 emoji
+git+https://github.com/code-rgb/pyrogram.git@verlock
+git+https://github.com/Nekos-life/Async-nekos.life-wrapper
 gitpython
 google-api-python-client
 google-auth-httplib2
@@ -16,13 +19,12 @@ instaloader
 jikanpy
 motor
 natsort
-git+https://github.com/Nekos-life/Async-nekos.life-wrapper
 oauth2client
 Pillow==7.1.0
 psutil
 pybase64
+PyGithub
 pymediainfo
-git+https://github.com/code-rgb/pyrogram.git@verlock
 pySmartDL
 python-dotenv
 pytz
@@ -41,5 +43,5 @@ tgcrypto
 urbandict==0.5
 wget
 wikipedia
+youtube-search
 youtube_dl>=2020.09.20
-covid

@@ -101,8 +101,7 @@ class Config:
     ### Last FM
     LASTFM_USERNAME = os.environ.get("LASTFM_USERNAME", None)
     LASTFM_API_KEY = os.environ.get("LASTFM_API_KEY", None)
-    GITHUB_USER = os.environ.get("GITHUB_USER", None)
-    GITHUB_PASS = os.environ.get("GITHUB_PASS", None)
+    GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", None)
     
 
 def get_version() -> str:
